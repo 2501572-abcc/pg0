@@ -1,0 +1,103 @@
+#myself {
+    background-color: #add8e6;
+    color: #000000;
+    padding: 10px;
+    width: 100%;
+}
+
+#myself ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#myself a {
+    text-decoration: none;
+    padding: 10px;
+    color: #000000;
+}
+
+#myself a:hover {
+    background-color: #4169e1;
+}
+
+body {
+    background-color: #e0ffff;
+}
+
+.profeel {
+    background-color: #ffffff;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+.music {
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+.saisei {
+    display: inline-block;
+    text-align: center;
+}
+
+.saisei img {
+    width: 200px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+
+}
+
+.saisei img:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.arasuzi {
+    background-color: #ffffff;
+    padding: 50px;
+}
+
+.manga {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 50px;
+    width: 20%;
+    border-radius: 12px;
+}
+
+.manga img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.picture {
+    display: flex;
+    justify-content: space-between;
+}
+
+.love {
+    background-color: #add8e6;
+    padding: 20px;
+}
+
+.love img {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+
+
+img {
+    width: 200px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+}
