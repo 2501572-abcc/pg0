@@ -26,6 +26,19 @@ body {
     background-color: #e0ffff;
 }
 
+.consent {
+    position: relative;
+    height: 300px;
+}
+
+.consent img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 150px;
+}
+
+
 .profeel {
     background-color: #ffffff;
     padding-bottom: 100px;
@@ -54,6 +67,16 @@ body {
     cursor: pointer;
 }
 
+.mbti img {
+    display: flex;
+    justify-content: center;
+}
+
+.mbti {
+    text-align: center;
+}
+
+
 .arasuzi {
     background-color: #ffffff;
     padding: 50px;
@@ -63,17 +86,24 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: auto;
+    margin: 20px;
     background-color: #ffffff;
-    padding: 50px;
+    padding: 20px;
+    padding-top: 80px;
     width: 20%;
     border-radius: 12px;
 }
 
-.manga img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.link-container {
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.link-container img {
+    width: 50%;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .picture {
@@ -89,9 +119,12 @@ body {
 .love img {
     display: flex;
     justify-content: space-around;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
 
+.gatya {
+    text-align: left;
 }
 
 
